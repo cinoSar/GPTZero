@@ -1,13 +1,13 @@
 """
-This code a slight modification of perplexity by hugging face
+This code is a slight modification of perplexity by hugging face
 https://huggingface.co/docs/transformers/perplexity
 
-Both this code and the orignal code are published under the MIT license.
+Both this code and the original code are published under the MIT licence.
 
 by Burhan Ul tayyab and Nicholas Chua
 """
 
-from model import GPT2PPL
+from gpt2ppl_fixed import GPT2PPL
 
 # initialize the model
 model = GPT2PPL()

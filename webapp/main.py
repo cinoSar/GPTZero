@@ -8,7 +8,7 @@ by Burhan Ul tayyab and Nicholas Chua
 """
 
 from torch import equal
-from model import GPT2PPL
+from gpt2ppl_fixed import GPT2PPL
 from fastapi import FastAPI, Form
 from fastapi import Request
 import gradio as gr

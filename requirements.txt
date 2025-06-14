@@ -1,4 +1,7 @@
+# Updated requirements with more stable versions
+torch>=1.13.0
+transformers>=4.26.0,<5.0.0
+tokenizers>=0.13.2,<0.16.0
 fastapi==0.89.1
 gradio==3.16.2
-transformers==4.26.0
 uvicorn==0.20.0
